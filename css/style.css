@@ -1116,7 +1116,7 @@ img{
 	-ms-transform: rotateX(90deg);
 	-o-transform: rotateX(90deg);
 	transform: rotateX(90deg);
-	border-bottom: 3px solid #f20487;
+	border-bottom: 3px solid var(--2ndcolor);
 	border-radius: 0 0 6px 6px;
 	-webkit-box-shadow:2px 2px 5px 1px rgba(0,0,0,0.05),-2px 0px 5px 1px rgba(0,0,0,0.05);
 	-ms-box-shadow:2px 2px 5px 1px rgba(0,0,0,0.05),-2px 0px 5px 1px rgba(0,0,0,0.05);
@@ -1167,7 +1167,7 @@ img{
 }
 
 .main-menu .navigation > li > ul > li:hover > a{
-	color:#e1137b;
+	color: var(--2ndcolor);
 }
 
 .main-menu .navigation > li > ul > li > ul{
@@ -1192,7 +1192,7 @@ img{
 	-ms-transform: rotateX(90deg);
 	-o-transform: rotateX(90deg);
 	transform: rotateX(90deg);
-	border-bottom: 3px solid #f20487;
+	border-bottom: 3px solid var(--2ndcolor);
 	border-radius: 0 0 6px 6px;
 	-webkit-box-shadow:2px 2px 5px 1px rgba(0,0,0,0.05),-2px 0px 5px 1px rgba(0,0,0,0.05);
 	-ms-box-shadow:2px 2px 5px 1px rgba(0,0,0,0.05),-2px 0px 5px 1px rgba(0,0,0,0.05);
@@ -1658,7 +1658,7 @@ img{
 
 .mobile-menu .navigation li:hover > a,
 .mobile-menu .navigation li.current > a{
-	color:#e1137b;
+	color: var(--3rdcolor);
 }
 
 .mobile-menu .navigation li.dropdown .dropdown-btn{
@@ -8904,7 +8904,7 @@ img{
 }
 
 .main-footer.style-three .footer-nav li a:hover{
-	color: #f20487;
+	color: var(--2ndcolor);
 }
 
 .main-footer.style-three .copyright-text{
