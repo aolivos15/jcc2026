@@ -903,7 +903,7 @@ img{
 	display: inline-block;
 	font-size:48px;
 	line-height:1.2em;
-	color: #2B1391;
+	color: var(--1stcolor);
 	font-weight:700;
 }
 
@@ -2893,9 +2893,10 @@ img{
 	padding: 80px 0 80px;
 }
 
-.feature-block{
+.feature-block {
 	position: relative;
 	margin-bottom: 40px;
+	display: flex;
 }
 
 .feature-block .inner-box{
@@ -3110,6 +3111,7 @@ img{
 .feature-block-two{
 	position: relative;
 	margin-bottom: 40px;
+	display: flex;
 }
 
 .feature-block-two .inner-box{
@@ -3799,7 +3801,7 @@ img{
 	padding: 50px 0 40px;
 	box-shadow: 0 20px 30px rgba(0,0,0,0.10);
 	border: 1px solid #dddddd;
-	border-bottom: 5px solid #1c94d2;
+	border-bottom: 5px solid var(--2ndcolor);
 	max-width: 300px;
 	margin: 0 auto;
 	-webkit-transition: all 600ms ease;
@@ -3833,7 +3835,7 @@ img{
 	/*padding: 10px 30px;*/
 	padding: 10px 30px 10px 10px;
 	border-radius: 0 30px 30px 0;
-	background-color: #1c94d2;
+	background-color: var(--2ndcolor);
 	margin-bottom: 50px;
 }
 
@@ -3880,7 +3882,7 @@ img{
 	height: 150px;
 	width: 150px;
 	overflow: hidden;
-	border: 4px solid #1c94d2;
+	border: 4px solid var(--2ndcolor);
 	box-shadow: 0 0 20px rgba(0,0,0,0.10);
 	border-radius: 50%;
 	z-index: 9;
@@ -11166,33 +11168,24 @@ img{
 	margin-bottom: 6px;
 }
 
-.list-container {
-	display: flex;
-	flex-wrap: wrap;
-	row-gap: 10px;
-}
-
-.list-element {
-	display: flex;
-}
-
-.list-number {
-	background-color: #2B1391;
-	color: white;
-	border-radius: 50%;
-	width: 40px;
-	height: 40px;
-	font-size: 14px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.list-text {
-	width: 80%;
-	margin-left: 10px;
+.feature-block .card-inner-box {
+	position: relative;
+	padding: 40px 30px;
+	background-color:#ffffff;
+	border: 1px solid #eeeeee;
+	border-radius: 10px;
+	box-shadow: 0 20px 30px rgba(0,0,0,0.10);
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
 	text-align: left;
-	font-size: 14px;
+	overflow: hidden;
+}
+
+.feature-block .card-inner-box h4 {
+	text-align: center;
 }
 
 .schedule-container {
@@ -11227,6 +11220,12 @@ img{
 
 .colored-btn:hover {
 	background-color: #78E3CC;
+}
+
+.modal-btn {
+	color: #fff;
+	background-color: var(--2ndcolor);
+	border-color: var(--2ndcolor);
 }
 
 .big-text {

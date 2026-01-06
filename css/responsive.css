@@ -399,7 +399,7 @@
 
 	.feature-block-two .inner-box{
 		padding: 40px 20px;
-		text-align: center;
+		/* text-align: center; */
 	}
 
 	.feature-block-two .icon-box{
