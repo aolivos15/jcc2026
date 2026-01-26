@@ -11232,3 +11232,15 @@ img{
 	font-size: clamp(1rem, 0.75rem + 1.5vw, 1.8rem);
 	text-align: center;
 }
+
+.schedule-table {
+	border: 1px solid #999;
+	border-collapse: collapse;
+	font-size: 0.8rem;
+	margin: auto;
+}
+
+.schedule-table td {
+	border: 1px solid #999;
+	padding: 10px;
+}
